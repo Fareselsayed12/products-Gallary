@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'ngx-toastr/toastr';
+
+.btn-main {
+    @apply bg-[linear-gradient(to_right,_#F43F5E_0%,_#EC4899_100%)] text-white px-12 py-2 border rounded-lg ml-4 hover:bg-pink-700 transition-colors duration-500 font-medium;
+}
+
+.text-main {
+    @apply text-[#F43F5E] hover:text-[#EC4899] text-[28.8px] duration-300 font-medium;
+}
+
+.text-sub {
+    @apply text-[#10B981] text-[1.4rem];
+}
+
+.text-sub-info {
+    @apply text-[#10B981] text-[1.5rem] font-medium;
+}
+
+.heading-title {
+    @apply text-[#0F172A] font-[700];
+}
+
+.sub-title {
+    @apply text-[#3B82F6] font-[700];
+}
+
+.bg-title {
+    @apply bg-[#F0ABFC33];
+}

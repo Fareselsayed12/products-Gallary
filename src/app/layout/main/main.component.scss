@@ -1,0 +1,12 @@
+.main-bg{
+    background-color: #f0ece0;
+    
+}
+
+:host{
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
